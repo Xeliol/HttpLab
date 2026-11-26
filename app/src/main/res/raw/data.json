@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {"id": 1, "title": "Основы Kotlin", "hours": 72, "online": true,
+      "teacher": {"name": "Е. Кузнецова", "degree": "к.т.н."},
+      "topics": ["переменные", "функции", "классы"]},
+    {"id": 2, "title": "Android-разработка", "hours": 108, "online": false,
+      "teacher": {"name": "А. Морозов", "degree": "доцент"},
+      "topics": ["Activity", "RecyclerView", "сеть"]},
+    {"id": 3, "title": "Базы данных", "hours": 36, "online": true,
+      "teacher": {"name": "И. Лебедев", "degree": "ассистент"},
+      "topics": ["SQL", "таблицы"]}
+  ],
+  "total": 3
+}
