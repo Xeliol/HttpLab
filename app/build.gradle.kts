@@ -69,3 +69,10 @@ dependencies {
 
     implementation("com.squareup.moshi:moshi:1.15.1")
 }
+
+configurations.all {
+    resolutionStrategy {
+        force("androidx.core:core:1.17.0")
+        force("androidx.core:core-ktx:1.17.0")
+    }
+}
