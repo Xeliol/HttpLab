@@ -74,5 +74,8 @@ configurations.all {
     resolutionStrategy {
         force("androidx.core:core:1.17.0")
         force("androidx.core:core-ktx:1.17.0")
+        // Добавьте эти две строки:
+        force("androidx.activity:activity:1.12.4")
+        force("androidx.activity:activity-ktx:1.12.4")
     }
 }
